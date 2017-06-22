@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>CSS exercise</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
+<meta charset="utf8" />
+ 
+   </head>
+    
+    <style>
+
+.header {
+    width:600;
+    display: grid;
+    margin: 10px;
+    font-family: 'PT Sans';
+	font-size: 57px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26px;
+grid-gap: 10px;
+grid-template-columns: 200px 200px 200px;
+grid-template-rows: 100px 500px;
+grid-template-areas:
+    "name photo surname"
+    "photos photos photos";
+height: 20%;
+            width: 20%;
+            object-fit: contain;
+    
+}
+
+ .button {
+    width:600;
+    display: grid;
+    margin: 10px;
+    font-family: 'PT Sans';
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26px;
+grid-gap: 10px;
+grid-template-columns: 200px 200px 200px;
+grid-template-rows: 100px 500px;
+grid-template-areas:
+    "name photo surname"
+    "photos photos photos";
+     height: 20%;
+            width: 20%;
+            object-fit: contain;
+
+}
+
+.button1 {
+    width:600;
+    display: grid;
+    margin: 10px;
+    font-family: 'PT Sans';
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26px;
+grid-gap: 10px;
+grid-template-columns: 200px 200px 200px;
+grid-template-rows: 100px 500px;
+grid-template-areas:
+    "name photo surname"
+    "photos photos photos";
+     height: 20%;
+            width: 20%;
+            object-fit: contain;
+
+}
+
+        
+.name {
+    grid-area: name;
+background: black;
+    
+}
+
+.photo{
+    grid-area: photo;
+background: black;
+
+}
+
+.surname {
+    grid-area: surname;
+background: black;
+    
+}
+
+.photos {
+    grid-area: photos;
+background: rgba(0, 0, 0, 0);
+    width: 150px;
+    
+}
+        
+        img.photos {
+            height: 40%;
+            width: 40%;
+            object-fit: contain;
+        }
+    </style>
+
+<body  background="http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg"
+>
+ 
+    
+    <div class="header" style="position: absolute; width: 100px; height: 100px; left: 5%; top: 2%; color: rgba(1, 1, 1, 1);">
+        Viktoriia</div>
+    
+     <div class="header" style="position: absolute; width: 100px; height: 100px; left: 5%; top: 10.5%; color: rgba(1, 1, 1, 1);">
+       Petik</div>
+    
+<a href="https://vikavikysia.github.io/index.html" class="button" style="position: absolute; width: 100px; height: 100px; right: 50%; top: 2.5%; color: rgba(1, 1, 1, 1);">
+       Home</a>
+    
+<a href="https://vikavikysia.github.io/about.html" class="button" style="position: absolute; width: 100px; height: 100px; right: 35%; top: 2.5%; color: rgba(1, 1, 1, 1);">
+       About</a>
+    
+        <div class="button" style="position: absolute; width: 100px; height: 100px; right: 20%; top: 2.5%; color: rgba(1, 1, 1, 1);">
+       Projects</div>
+    
+        <a href="https://www.facebook.com/profile.php?id=100010163179147" class="button" style="position: absolute; width: 100px; height: 100px; right: 5%; top: 2.5%; color: rgba(1, 1, 1, 1);">
+       Contacts</a>
+        
+
+<a href="https://vikavikysia.github.io/fotografii.html" class="button1" style="position: absolute; width: 100px; height: 100px; left: 5%; top: 57%; color: rgba(1, 1, 1, 1);">
+       Photos</a>
+
+<a href="https://vikavikysia.github.io/posters.html" class="button1" style="position: absolute; width: 100px; height: 100px; left: 5%; top: 113.5%; color: rgba(1, 1, 1, 1);">
+       Posters</a>
+
+<a href="https://vikavikysia.github.io/illustrations.html" class="button1" style="position: absolute; width: 100px; height: 100px; left: 5%; top: 160%; color: rgba(1, 1, 1, 1);">
+       Illustrations</a>
+
+<a href="https://vikavikysia.github.io/others.html" class="button1" style="position: absolute; width: 100px; height: 100px; left: 5%; top: 217%; color: rgba(1, 1, 1, 1);">
+       Others</a>
+
+<!--
+        <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/doroga.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/lampochka%20ikea.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/skorost'.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/razdelenie.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/wilson.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/zwezdy.jpg?raw=true" style="width:100%">
+
+
+  <div class="w3-half">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/konfetka.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/new%20year.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/nebo.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/grcp9Gpkoe8.jpg?raw=true" style="width:100%">
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/woda.jpg?raw=true" style="width:100%">
+          <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/_MG_9049%20copy%20black%20and%20white.jpg?raw=true" style="width:100%">
+-->
+   
+ <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/wilson.jpg?raw=true" width="200px" class="photos" style="position: absolute; left: 5%; top: 20%; color: rgba(1, 1, 1, 1);">
+        
+<img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/Plakat_MentalIllnesses_ViktoriiaPetik_Communication_2rok_2017.jpg?raw=true" width="200px" class="photos" style="position: absolute; left: 5%; top: 70%; color: rgba(1, 1, 1, 1);">
+    
+    <img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/TwojaPizza_nr1a_ViktoriiaPetik_Communication_2rok_2017.jpg?raw=true" width=auto; max-height: 100%; class="photos" style="position: absolute; left: 5%; top: 173.5%; color: rgba(1, 1, 1, 1);">    
+
+        
+    
+<img src="https://github.com/Vikavikysia/vikavikysia.github.io/blob/master/sniadanie%20print-01.jpg?raw=true" width="200px" class="photos" style="position: absolute; left: 5%; top: 122%; color: rgba(1, 1, 1, 1);">
+
+<!--
+
+<div href="" class="button1" style="position: absolute; width: 100px; height: 100px; left: 5%; top: 62%; color: rgba(1, 1, 1, 1);">
+       Photos</div>
+    
+-->
+<!--
+<div class="button1" style="position: absolute; width: 100px; height: 100px; right: 5%; top: 62%; color: rgba(1, 1, 1, 1);">
+       Covers</div>    
+
+<div class="button1" style="position: absolute; width: 100px; height: 100px; left: 5%; top: 115%; color: rgba(1, 1, 1, 1);">
+       Posters</div>
+    
+<div class="button1" style="position: absolute; width: 100px; height: 100px; right: 5%; top: 115%; color: rgba(1, 1, 1, 1);">
+       Illustrations</div>    
+-->
+
+
+
+
+
