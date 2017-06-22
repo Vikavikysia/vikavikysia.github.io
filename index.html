@@ -102,7 +102,6 @@ opacity: 1;
 */
  
 
-/*
 .p {
  animation-duration: 5s;
  animation-name: slidein;
@@ -112,16 +111,66 @@ opacity: 1;
 @keyframes slidein {
  from {
  margin-left: 100%;
- width: 300%; 
- }
+ width: 100%; 
+    }}
 
+/*
+@keyframes  fade 
+
+		{
+			0% { fill-opacity: 0.0; }
+			100% { fill-opacity: 1.0; 
+				-moz-animation-play-state: paused;
+							
+		}
+*/
+
+/*
  to {
  margin-left: 0%;
  width: 100%;
  }
 }
-*/
 
+     .fade
+{
+			position: absolute;
+			width: 350px;
+			height: 350px;
+			left: 0;
+			top: 0;
+			background-color: #FFF;
+			fill-opacity: 0;
+			-moz-animation: fade 5s;
+			-moz-animation-delay: 1s;
+			-moz-animation-iteration-count: 1;
+			-webkit-animation-fill-mode: forwards;
+			-webkit-animation: fade 5s;
+			-webkit-animation-delay: 1s;
+			-webkit-animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+
+}
+
+		@keyframes fade 
+
+		{
+			0% { fill-opacity: 0.0; }
+			100% { fill-opacity: 1.0; 
+				-moz-animation-play-state: paused;
+							
+		}
+		
+		@-webkit-keyframes fade
+
+		{
+			0% { fill-opacity: 0.0; }
+			100% { fill-opacity: 1.0; 
+				-webkit-animation-play-state: paused;
+							
+		}
+     
+*/
 .name {
  grid-area: name;
 background: black;
@@ -167,7 +216,7 @@ background: rgba(0, 0, 0, 0);
 <div class="button" style="position: absolute; width: 100px; height: 100px; right: 50%; top: 2.5%; color: rgba(1, 1, 1, 1);">
  Home</div>
  
-<a href="file:///Volumes/NO%20NAME/html%20css%20portfolio/about.html" class="button" style="position: absolute; width: 100px; height: 100px; right: 35%; top: 2.5%; color: rgba(1, 1, 1, 1);">
+<a href="https://vikavikysia.github.io/about.html" class="button" style="position: absolute; width: 100px; height: 100px; right: 35%; top: 2.5%; color: rgba(1, 1, 1, 1);">
  About</a>
  
  <a href="file:///Volumes/NO%20NAME/html%20css%20portfolio/projects.html" class="button" style="position: absolute; width: 100px; height: 100px; right: 20%; top: 2.5%; color: rgba(1, 1, 1, 1);">
